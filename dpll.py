@@ -119,7 +119,7 @@ def dimacs_load(filename):
 
 
 #load text file here
-clause_sett = dimacs_load('8queens.txt')
+clause_sett = dimacs_load('sat_example.txt')
 print(dpll_sat_solve(clause_sett,[]))
 
   
